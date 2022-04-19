@@ -1,5 +1,5 @@
 (function() {
-  console.log("Try reading the README.md file if you are lost or dunno what to do. Because thats the reason why it is there");
+  // console.log("Try reading the README.md file if you are lost or dunno what to do. Because thats the reason why it is there");
   module.exports = { caesarCipher, playFairCipher, vignereCipher, hillCipher };
 })();
 

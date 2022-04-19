@@ -1,8 +1,8 @@
 {
-  "name": "@kesavaraj/ciphers",
-  "version": "0.0.1",
+  "name": "@zoho/ciphers",
+  "version": "0.0.4",
   "description": "A package containing implementations of traditional ciphers",
-  "main": "index.js",
+  "main": "bin/cipher.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,8 @@
     "algorithms"
   ],
   "author": "kesavaraj",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "cipher": "node cipher.js"
+  }
 }
